@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "k-playlist":"/components/playlist/playlist"
+  }
+}
