@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "k-login":"/components/login/login",
+    "k-bottom-modal": "/components/bottom-modal/bottom-modal"
+  }
+}

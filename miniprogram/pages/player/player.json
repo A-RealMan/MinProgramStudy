@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "k-progess-bar":"/components/progess-bar/progess-bar",
+    "k-lyric": "/components/lyric/lyric"
+  },
+  "disableScroll": true
+}

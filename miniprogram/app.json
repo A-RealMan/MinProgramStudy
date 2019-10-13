@@ -2,8 +2,16 @@
   "pages": [
     "pages/playlist/playlist",
     "pages/blog/blog",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/demo/demo",
+    "pages/musiclist/musiclist",
+    "pages/player/player",
+    "pages/blog-edit/blog-edit",
+    "pages/blog-comment/blog-comment",
+    "pages/profile-playhistory/profile-playhistory",
+    "pages/profile-bloghistory/profile-bloghistory"
   ],
+  "requiredBackgroundModes": ["audio"],
   "tabBar": {
     "color": "#474747",
     "selectedColor": "#d43c43",

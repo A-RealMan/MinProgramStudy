@@ -29,13 +29,52 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "pages/demo/demo",
+					"pathName": "pages/demo/demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "musiclist",
+					"pathName": "pages/musiclist/musiclist",
+					"query": "playlistId= 111221399",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "blog",
+					"pathName": "pages/blog/blog",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "blog-edit",
+					"pathName": "pages/blog-edit/blog-edit",
+					"query": "nickName= \"凯开\"&avatarUrl= \"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJGOwenA…8TYcSQ1nPqFibMaiaUHoVfQ90h6Dv2OCXnJIlXpzvYqoQ/132\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "playlist",
+					"pathName": "pages/playlist/playlist",
+					"scene": null
 				}
 			]
 		}

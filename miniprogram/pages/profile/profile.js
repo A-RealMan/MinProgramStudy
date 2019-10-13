@@ -7,6 +7,21 @@ Page({
   data: {
 
   },
+  onTapQrCode(){
+    wx.showLoading({
+      title: '正在生成中',
+    })
+    wx.cloud.callFunction({
+      name:'getQrCode'
+    }).then((res)=>{
+      console.log(res)
+      wx.previewImage({
+        urls: [res.result],
+        current:res.result
+      })
+      wx.hideLoading()
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
